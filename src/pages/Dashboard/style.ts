@@ -118,7 +118,7 @@ export const Repository = styled.span`
   }
   button{
     width: 10%;
-    background: red;
+    background: #B22222;
     color: white;
     border: none;
     border: 0;
@@ -129,7 +129,7 @@ export const Repository = styled.span`
 
     &:hover{
       transform: scale(1.05);
-      background: ${shade(0.2, "#04d361")};
+      background: ${shade(0.2, "#850000")};
     }
   }
 `

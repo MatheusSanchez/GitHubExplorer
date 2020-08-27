@@ -30,12 +30,9 @@ const Dashboard: React.FC = () => {
   useEffect(() => {
     localStorage.setItem("@GitHubExplore:repositories", JSON.stringify(repositories))
   }, [repositories]);
+  // toda vez que alterar o repositório, salva na cache
 
-  function handleDeleteRepositorie(repo: RepositoryIO): number {
-    console.log(repo);
 
-    return 0;
-  }
 
   async function handleAddRepositorie(event: FormEvent<HTMLFormElement>) {
     event.preventDefault(); // evita o forms de atualizar a página
@@ -57,6 +54,19 @@ const Dashboard: React.FC = () => {
     }
 
 
+  }
+
+  function handleDeleteRepositorie(repoName: string): number {
+    console.log(repoName);
+    console.log(repositories);
+
+    const allRepos: RepositoryIO[] = repositories.filter((repo) => {
+      return repo.full_name != repoName
+    }); //
+
+    setRepositories(allRepos);
+
+    return 0;
   }
 
   return (
@@ -92,7 +102,7 @@ const Dashboard: React.FC = () => {
               </div>
               <FiChevronsRight size={20} />
             </Link>
-            <button >X</button>
+            <button onClick={e => handleDeleteRepositorie(repo.full_name)}>X</button>
           </Repository>
         ))}
       </Repositories>
