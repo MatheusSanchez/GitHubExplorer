@@ -1,11 +1,11 @@
 import React, { useState, FormEvent, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import logoImage from '../../assets/logo.svg';
-import { Title, Form, Repositories, Error } from './style'
+import { Title, Form, Repositories, Error, Repository } from './style'
 import { FiChevronsRight } from 'react-icons/fi'
 import api from '../../services/api'
 
-interface Repository {
+interface RepositoryIO {
   full_name: string;
   description: string;
   owner: {
@@ -17,7 +17,7 @@ interface Repository {
 
 const Dashboard: React.FC = () => {
   const [newRepo, setNewRepo] = useState('');
-  const [repositories, setRepositories] = useState<Repository[]>(() => {
+  const [repositories, setRepositories] = useState<RepositoryIO[]>(() => {
     const storageRepos = localStorage.getItem('@GitHubExplore:repositories');
     if (storageRepos) {
       return JSON.parse(storageRepos);
@@ -31,6 +31,12 @@ const Dashboard: React.FC = () => {
     localStorage.setItem("@GitHubExplore:repositories", JSON.stringify(repositories))
   }, [repositories]);
 
+  function handleDeleteRepositorie(repo: RepositoryIO): number {
+    console.log(repo);
+
+    return 0;
+  }
+
   async function handleAddRepositorie(event: FormEvent<HTMLFormElement>) {
     event.preventDefault(); // evita o forms de atualizar a página
     if (!newRepo) {
@@ -39,7 +45,7 @@ const Dashboard: React.FC = () => {
     }
 
     try {
-      const response = await api.get<Repository>(`repos/${newRepo}`);
+      const response = await api.get<RepositoryIO>(`repos/${newRepo}`);
       const repository = response.data;
 
       setRepositories([...repositories, repository]);
@@ -72,20 +78,23 @@ const Dashboard: React.FC = () => {
       }
 
       <Repositories>
+
         {repositories.map(repo => (
-          <Link to={`/repository/${repo.full_name}`} key={repo.full_name}>
-            <img src={repo.owner.avatar_url}
-              alt={repo.owner.login}
-            />
+          <Repository>
+            <Link to={`/repository/${repo.full_name}`}>
+              <img src={repo.owner.avatar_url}
+                alt={repo.owner.login}
+              />
 
-            <div>
-              <strong>{repo.full_name}</strong>
-              <p>{repo.description}</p>
-            </div>
-            <FiChevronsRight size={20} />
-          </Link>
+              <div>
+                <strong>{repo.full_name}</strong>
+                <p>{repo.description}</p>
+              </div>
+              <FiChevronsRight size={20} />
+            </Link>
+            <button >X</button>
+          </Repository>
         ))}
-
       </Repositories>
     </>
   );

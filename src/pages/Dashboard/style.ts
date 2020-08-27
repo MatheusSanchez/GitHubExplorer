@@ -61,16 +61,25 @@ export const Form = styled.form<FormProps>`
 export const Repositories = styled.div`
   margin-top: 80px;
   max-width: 700px;
+  display: flex;
+  flex-direction: column;
+
+
+
+`;
+
+export const Repository = styled.span`
+  display:flex;
 
    /*estilo aplicado a todos os elementos (a), a partir do segundo*/
-  a + a {
+   & + & {
     margin-top:16px;
   }
 
   a{
     background: #FFF;
     border-radius: 5px;
-    width: 100%;
+    width: 90%;
     padding: 24px;
     display: flex;
     text-decoration: none;
@@ -78,7 +87,7 @@ export const Repositories = styled.div`
     transition: transform 0.2s;
 
     &:hover{
-      transform: translateX(10px);
+      transform: scale(1.05);
     }
 
     img{
@@ -106,11 +115,24 @@ export const Repositories = styled.div`
         margin-left: auto;
         color: #cbcbd6;
     }
-
-
   }
+  button{
+    width: 10%;
+    background: red;
+    color: white;
+    border: none;
+    border: 0;
+    border-radius: 5px 5px 5px 5px;
 
-`;
+    transition: transform 0.2s;
+
+
+    &:hover{
+      transform: scale(1.05);
+      background: ${shade(0.2, "#04d361")};
+    }
+  }
+`
 
 export const Error = styled.span`
   display: block;
