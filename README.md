@@ -52,9 +52,8 @@ The project consists in present information about repositories on GitHub in a si
 
 ### Built With
 This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
-* [Laravel](https://laravel.com)
+* [ReactJS](https://pt-br.reactjs.org/)
+* [CSS](https://www.w3schools.com/css/)
 
 
 
@@ -129,9 +128,9 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+Matheus Sanchez - [@MatheusSanchez](https://github.com/MatheusSanchez) - matheus_sanchez@usp.br
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [https://github.com/MatheusSanchez/GitHubExplorer](https://github.com/MatheusSanchez/GitHubExplorer)
 
 
 
