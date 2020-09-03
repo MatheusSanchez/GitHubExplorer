@@ -90,11 +90,14 @@ yarn start
 ## Usage
 
 1. After running the code, you will be in main page:
+
 [![Product Name Screen Shot Main][main-screenshot]](https://github.com/MatheusSanchez/GitHubExplorer)
 
 2. The search bar is simple, you have to write an Username and a name of an repository (in the following example you will search information about [NodeJs](https://github.com/nodejs/node) Repository);
 
 [![Product Name Screen Shot Main][search-screenshot]](https://github.com/MatheusSanchez/GitHubExplorer)
+
+[![Product Name Screen Shot Main][searched-screenshot]](https://github.com/MatheusSanchez/GitHubExplorer)
 
 
 
@@ -148,3 +151,5 @@ Project Link: [https://github.com/MatheusSanchez/GitHubExplorer](https://github.
 
 [product-screenshot]: images/screenshot.png
 [main-screenshot]: images/main_page.png
+[search-screenshot]: images/search-screenshot.png
+[searched-screenshot]: images/searched-screenshot.png
