@@ -98,7 +98,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/MatheusSanchez/GitHubExplorer/issues) for a list of proposed features (and known issues).
 
 
 
@@ -133,18 +133,10 @@ Project Link: [https://github.com/MatheusSanchez/GitHubExplorer](https://github.
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Img Shields](https://shields.io)
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Pages](https://pages.github.com)
-* [Animate.css](https://daneden.github.io/animate.css)
-* [Loaders.css](https://connoratherton.com/loaders)
-* [Slick Carousel](https://kenwheeler.github.io/slick)
-* [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll)
-* [Sticky Kit](http://leafo.net/sticky-kit)
-* [JVectorMap](http://jvectormap.com)
-* [Font Awesome](https://fontawesome.com)
-
+* [React](https://pt-br.reactjs.org/)
+* [Git and GitHub](https://github.com/)
+* [JavaScript](https://developer.mozilla.org/pt-BR/docs/Aprender/JavaScript)
+* [Api GitHub](https://developer.github.com/v3/)
 
 
 
