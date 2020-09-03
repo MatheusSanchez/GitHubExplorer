@@ -43,7 +43,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot]](https://github.com/MatheusSanchez/GitHubExplorer)
 
 An Simple project to get the main concepts about React and how to works API.
 
@@ -89,7 +89,10 @@ yarn start
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+After running the code, you will be in main page:
+[![Product Name Screen Shot Main][main-screenshot]](https://github.com/MatheusSanchez/GitHubExplorer)
+
+
 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
@@ -138,13 +141,5 @@ Project Link: [https://github.com/MatheusSanchez/GitHubExplorer](https://github.
 * [Api GitHub](https://developer.github.com/v3/)
 
 
-
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=flat-square
-[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=flat-square
-[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=flat-square
-[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=flat-square
-[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
 [product-screenshot]: images/screenshot.png
+[main-screenshot]: images/main_page.png
