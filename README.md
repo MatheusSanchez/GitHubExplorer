@@ -89,8 +89,13 @@ yarn start
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-After running the code, you will be in main page:
+1. After running the code, you will be in main page:
 [![Product Name Screen Shot Main][main-screenshot]](https://github.com/MatheusSanchez/GitHubExplorer)
+
+2. The search bar is simple, you have to write an Username and a name of an repository (in the following example you will search information about [NodeJs](https://github.com/nodejs/node) Repository);
+
+[![Product Name Screen Shot Main][search-screenshot]](https://github.com/MatheusSanchez/GitHubExplorer)
+
 
 
 
