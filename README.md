@@ -51,7 +51,6 @@ The project consists in present information about repositories on GitHub in a si
 
 
 ### Built With
-This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 * [ReactJS](https://pt-br.reactjs.org/)
 * [CSS](https://www.w3schools.com/css/)
 
@@ -65,26 +64,24 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-```sh
-npm install npm@latest -g
-```
+You will need Yarn, in the following link you find how to install this depending on your operating system
+
+* [Yarn](https://classic.yarnpkg.com/en/docs/install/#debian-stable
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
+1. Install Yarn
 2. Clone the repo
 ```sh
-git clone https://github.com/your_username_/Project-Name.git
+git clone https://github.com/MatheusSanchez/GitHubExplorer
 ```
-3. Install NPM packages
+3. Install Yarn packages
 ```sh
-npm install
+yarn
 ```
-4. Enter your API in `config.js`
-```JS
-const API_KEY = 'ENTER YOUR API';
+4. Run the project
+```sh
+yarn start
 ```
 
 
