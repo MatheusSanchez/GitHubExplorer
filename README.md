@@ -127,6 +127,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ## Contact
 
 Matheus Sanchez - [@MatheusSanchez](https://github.com/MatheusSanchez) - matheus_sanchez@usp.br
+
 Project Link: [https://github.com/MatheusSanchez/GitHubExplorer](https://github.com/MatheusSanchez/GitHubExplorer)
 
 
