@@ -100,10 +100,10 @@ yarn start
 3. You will see the main information about the repository, if you wrote wrong something or made a mistake, you should saw an error;
 [![Product Name Screen Shot Main][searched-screenshot]](https://github.com/MatheusSanchez/GitHubExplorer)
 
+4. If you click in the repository that you have searched, you will see all the issues and other informations like stars, forks, etc;
+[![Product Name Screen Shot Main][allinfos-screenshot]](https://github.com/MatheusSanchez/GitHubExplorer)
 
 
-
-_For more examples, please refer to the [Documentation](https://example.com)_
 
 
 
@@ -154,3 +154,5 @@ Project Link: [https://github.com/MatheusSanchez/GitHubExplorer](https://github.
 [main-screenshot]: images/main_page.png
 [search-screenshot]: images/search-screenshot.png
 [searched-screenshot]: images/searched-screenshot.png
+[allinfos-screenshot]: images/allinfos-screenshot.png
+
