@@ -66,7 +66,7 @@ To get a local copy up and running follow these simple example steps.
 
 You will need Yarn, in the following link you find how to install this depending on your operating system
 
-* [Yarn](https://classic.yarnpkg.com/en/docs/install/#debian-stable
+* [Yarn](https://classic.yarnpkg.com/en/docs/install/#debian-stable)
 
 ### Installation
 
@@ -93,10 +93,11 @@ yarn start
 
 [![Product Name Screen Shot Main][main-screenshot]](https://github.com/MatheusSanchez/GitHubExplorer)
 
-2. The search bar is simple, you have to write an Username and a name of an repository (in the following example you will search information about [NodeJs](https://github.com/nodejs/node) Repository);
+2. The search bar is simple, you have to write an Username and a name of an repository (in the following example you will search information about [React](https://github.com/facebook/react) Repository);
 
 [![Product Name Screen Shot Main][search-screenshot]](https://github.com/MatheusSanchez/GitHubExplorer)
 
+3. You will see the main information about the repository, if you wrote wrong something or made a mistake, you should saw an error;
 [![Product Name Screen Shot Main][searched-screenshot]](https://github.com/MatheusSanchez/GitHubExplorer)
 
 
