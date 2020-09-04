@@ -133,6 +133,12 @@ Project Link: [https://github.com/MatheusSanchez/GitHubExplorer](https://github.
 * [JavaScript](https://developer.mozilla.org/pt-BR/docs/Aprender/JavaScript)
 * [Api GitHub](https://developer.github.com/v3/)
 
+## About Readme
+I wrote this Readme based in other repository;
+It's a very simple and useful template for readmes;
+You can see this [here](https://github.com/othneildrew/Best-README-Template)
+
+
 
 [product-screenshot]: images/screenshot.png
 [main-screenshot]: images/main_page.png
